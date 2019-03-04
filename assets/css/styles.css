@@ -49,7 +49,7 @@ header h1 {
 #section_1--text {
   text-align: justify;
   font-size: 1.3em;
-  color: #bbb;
+  color: #333;
   width: 75%;
   margin: 0 auto;
 }
@@ -62,6 +62,9 @@ header h1 {
   justify-content: center;
 }
 
+main {
+  overflow-x: hidden;
+}
 /*
   SUBSCRIBE FORM
 */
@@ -220,7 +223,7 @@ footer {
     margin: 0 auto;*/
     text-align: justify;
     font-size: 1.5em;
-    color: #bbb;
+    color: #333;
     width: 100%;
     margin: 0 auto;
     padding: 1em;
@@ -264,6 +267,9 @@ footer {
     align-items: center;
     flex-direction: column;
   }
+  #icons {
+    font-size: 1em;
+  }
   #footer-head h4 {
     display: flex;
     justify-content: center;
@@ -278,6 +284,7 @@ footer {
   }
   #menu-inner .menu-item .menu-link {
     display: block;
+    margin-top: 1.5em;
   }
   #footer-body {
     display: flex;
